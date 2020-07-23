@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Butterfly+Kids&family=Chathura:wght@100;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Open+Sans&family=Butterfly+Kids&family=Chathura:wght@100;300;400;700&display=swap");
 .h-d--top-nav {
   height: 50px;
   background: #fff;
@@ -139,20 +139,20 @@
 .h-d--slider__col-4 {
   padding-left: 5px; }
 
-.post {
+.h-d--post {
   margin: 30px 0; }
-  .post__featured {
+  .h-d--post__featured {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     transition: transform 300ms; }
-    .post__featured:hover {
+    .h-d--post__featured:hover {
       transform: scale(1.05); }
-    .post__featured__image img {
+    .h-d--post__featured__image img {
       width: 100%;
       object-fit: cover; }
-    .post__featured__text {
+    .h-d--post__featured__text {
       position: absolute;
       padding: 5px;
       background: rgba(255, 255, 255, 0.6);
@@ -162,3 +162,6 @@
       text-transform: uppercase;
       width: 60%;
       text-align: center; }
+
+.h-d--post {
+  margin-bottom: 80px; }

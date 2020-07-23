@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Open+Sans&family=Butterfly+Kids&family=Chathura:wght@100;300;400;700&display=swap");
+.h-1--navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+  align-items: center;
+  padding: 15px 0; }
+  .h-1--navbar__logo {
+    font-size: 4.5rem;
+    color: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    font-family: "Butterfly Kids", cursive;
+    line-height: 1.2;
+    padding-top: 8px; }
+  .h-1--navbar__navigation {
+    position: relative;
+    display: flex; }
+    .h-1--navbar__navigation a {
+      text-decoration: none;
+      text-transform: uppercase;
+      white-space: nowrap;
+      margin: 0 8px;
+      font-size: 30px;
+      color: #000;
+      font-weight: 600;
+      font-family: "Chathura", sans-serif; }
+      .h-1--navbar__navigation a:hover {
+        color: #ff4800; }
+    .h-1--navbar__navigation a.active {
+      color: #ff4800; }
+
+.h-1--header {
+  margin-bottom: 30px; }
+  .h-1--header .banner-image img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover; }
+
+.h-1--post {
+  margin: 30px 0;
+  margin-bottom: 80px; }
+  .h-1--post__featured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: transform 300ms; }
+    .h-1--post__featured:hover {
+      transform: scale(1.05); }
+    .h-1--post__featured__image img {
+      width: 100%;
+      object-fit: cover; }
+    .h-1--post__featured__text {
+      position: absolute;
+      padding: 5px;
+      background: rgba(255, 255, 255, 0.6);
+      color: #000;
+      font-family: "Chathura", sans-serif;
+      font-size: 24px;
+      text-transform: uppercase;
+      width: 60%;
+      text-align: center; }

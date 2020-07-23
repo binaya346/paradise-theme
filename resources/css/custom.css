@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Cedarville+Cursive&family=Butterfly+Kids&family=Chathura&Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
 *,
 *::before,
 *::after {
@@ -12,7 +11,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "PT Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 .u-no-margin {
   margin: 0; }
@@ -28,3 +27,223 @@ body {
   justify-content: center;
   background-position: center;
   background-size: cover; }
+
+.sidebar__about {
+  margin-bottom: 40px; }
+  .sidebar__about__image {
+    margin-bottom: 20px; }
+    .sidebar__about__image img {
+      height: auto;
+      width: 100%;
+      object-fit: cover; }
+  .sidebar__about__desc {
+    font-size: 16px; }
+  .sidebar__about__signature {
+    font-size: 30px;
+    font-family: "Cedarville Cursive", cursive;
+    margin: 10px 0;
+    display: grid;
+    place-items: center; }
+
+.sidebar__popular {
+  margin-bottom: 40px; }
+  .sidebar__popular__child {
+    margin-bottom: 20px; }
+  .sidebar__popular__image {
+    margin-bottom: 15px; }
+    .sidebar__popular__image img {
+      height: auto;
+      width: 100%;
+      object-fit: cover; }
+  .sidebar__popular__tags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    padding-bottom: 5px; }
+    .sidebar__popular__tags span {
+      color: #90bab5;
+      position: relative;
+      text-transform: uppercase;
+      margin-right: 25px;
+      font-weight: 600; }
+      .sidebar__popular__tags span:not(:last-child):after {
+        content: ".";
+        position: absolute;
+        height: 5px;
+        right: -15px;
+        width: 5px;
+        transform: translateY(100%);
+        border-radius: 50%;
+        background-color: #90bab5; }
+  .sidebar__popular__title {
+    display: grid;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Bungee Hairline", cursive;
+    text-decoration: none;
+    color: #000;
+    line-height: 1.2; }
+    .sidebar__popular__title:hover {
+      text-decoration: none;
+      color: #ff4800; }
+
+.sidebar__title {
+  font-size: 18px;
+  height: 50px;
+  width: 100%;
+  background-color: #f4f8f8;
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center; }
+  .sidebar__title span {
+    text-transform: capitalize; }
+
+.sidebar__recent {
+  margin-bottom: 40px; }
+  .sidebar__recent__child {
+    margin-bottom: 20px;
+    display: flex; }
+  .sidebar__recent__image {
+    margin-right: 15px; }
+    .sidebar__recent__image img {
+      height: 75px;
+      width: 75px;
+      border-radius: 50%;
+      object-fit: cover; }
+  .sidebar__recent__tags {
+    display: flex;
+    align-items: center;
+    font-size: 9px;
+    margin-bottom: 8px; }
+    .sidebar__recent__tags span {
+      color: #90bab5;
+      position: relative;
+      text-transform: uppercase;
+      margin-right: 25px;
+      font-weight: 600; }
+      .sidebar__recent__tags span:not(:last-child):after {
+        content: ".";
+        position: absolute;
+        height: 5px;
+        right: -15px;
+        width: 5px;
+        transform: translateY(100%);
+        border-radius: 50%;
+        background-color: #90bab5; }
+  .sidebar__recent__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .sidebar__recent__title {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 1.2; }
+    .sidebar__recent__title:hover {
+      text-decoration: none;
+      color: #ff4800; }
+
+.post__outline {
+  position: relative; }
+  .post__outline__image {
+    position: relative; }
+    .post__outline__image img {
+      width: 100%;
+      height: auto;
+      object-fit: cover; }
+  .post__outline__image-outline {
+    position: absolute;
+    height: auto;
+    width: 75%;
+    height: 300px;
+    border: 10px solid #90bab5; }
+  .post__outline__text-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -80px; }
+    .post__outline__text-wrapper--home1 {
+      justify-content: center; }
+  .post__outline__text {
+    position: relative;
+    background: #fff;
+    padding: 15px;
+    width: 80%; }
+  .post__outline__title {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: "Bungee Hairline", cursive;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #000; }
+    .post__outline__title:hover {
+      text-decoration: none;
+      color: #1890ff; }
+  .post__outline__desc {
+    font-size: 16px;
+    line-height: 1.35;
+    margin: 10px 0;
+    max-height: 80px;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.6); }
+    .post__outline__desc--home1 {
+      max-height: 125px; }
+  .post__outline__tag {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 10px; }
+    .post__outline__tag span {
+      color: #90bab5;
+      text-transform: uppercase;
+      margin-right: 15px;
+      font-weight: 600; }
+  .post__outline__details {
+    display: flex;
+    align-items: center;
+    margin-top: 5px; }
+  .post__outline__date, .post__outline__author {
+    align-items: center;
+    font-size: 11px; }
+    .post__outline__date .fas,
+    .post__outline__date .fa, .post__outline__author .fas,
+    .post__outline__author .fa {
+      color: rgba(0, 0, 0, 0.45); }
+    .post__outline__date span, .post__outline__author span {
+      color: rgba(0, 0, 0, 0.45);
+      text-transform: uppercase;
+      font-weight: 600;
+      padding-left: 4px; }
+  .post__outline__date {
+    margin-left: 25px; }
+  .post__outline__link {
+    padding-top: 5px;
+    color: #90bab5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 300ms; }
+    .post__outline__link span {
+      font-size: 13px; }
+    .post__outline__link .fas {
+      font-size: 11px;
+      margin-left: 4px; }
+    .post__outline__link:hover {
+      transform: translateY(-3px);
+      text-decoration: none;
+      color: #90bab5; }
+    .post__outline__link:active {
+      transform: translateY(-1px); }
+  .post__outline--3col__tag {
+    font-size: 9px; }
+  .post__outline--3col__title {
+    font-size: 18px; }
+  .post__outline--3col__author, .post__outline--3col__date {
+    font-size: 10px; }
+  .post__outline--3col__desc {
+    font-size: 14px;
+    max-height: 75px; }

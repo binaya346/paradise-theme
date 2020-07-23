@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node-sass resources/sass/main.scss resources/css/custom.css -w",
-    "compile-home": "node-sass resources/sass/home.scss resources/css/home.css -w"
+    "compile-home": "node-sass resources/sass/home.scss resources/css/home.css -w",
+    "compile-home1": "node-sass resources/sass/home1.scss resources/css/home1.css -w"
   },
   "keywords": [],
   "author": "",

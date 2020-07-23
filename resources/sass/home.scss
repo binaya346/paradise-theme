@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Butterfly+Kids&family=Chathura:wght@100;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Open+Sans&family=Butterfly+Kids&family=Chathura:wght@100;300;400;700&display=swap");
 
 .h-d {
   &--top-nav {
@@ -231,39 +231,43 @@
       padding-left: 5px;
     }
   }
-}
 
-.post {
-  margin: 30px 0;
+  &--post {
+    margin: 30px 0;
 
-  &__featured {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    transition: transform 300ms;
+    &__featured {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      transition: transform 300ms;
 
-    &:hover {
-      transform: scale(1.05);
-    }
+      &:hover {
+        transform: scale(1.05);
+      }
 
-    &__image {
-      img {
-        width: 100%;
-        object-fit: cover;
+      &__image {
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+
+      &__text {
+        position: absolute;
+        padding: 5px;
+        background: rgba(255, 255, 255, 0.6);
+        color: #000;
+        font-family: "Chathura", sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+        width: 60%;
+        text-align: center;
       }
     }
+  }
 
-    &__text {
-      position: absolute;
-      padding: 5px;
-      background: rgba(255, 255, 255, 0.6);
-      color: #000;
-      font-family: "Chathura", sans-serif;
-      font-size: 24px;
-      text-transform: uppercase;
-      width: 60%;
-      text-align: center;
-    }
+  &--post {
+    margin-bottom: 80px;
   }
 }

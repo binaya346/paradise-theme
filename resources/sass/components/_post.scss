@@ -1,0 +1,150 @@
+.post {
+  &__outline {
+    position: relative;
+    &__image {
+      position: relative;
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+    &__image-outline {
+      position: absolute;
+      height: auto;
+      width: 75%;
+      height: 300px;
+      border: 10px solid #90bab5;
+    }
+
+    &__text-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: -80px;
+
+      &--home1 {
+        justify-content: center;
+      }
+    }
+
+    &__text {
+      position: relative;
+      background: #fff;
+      padding: 15px;
+      width: 80%;
+    }
+
+    &__title {
+      font-size: 24px;
+      text-transform: capitalize;
+      font-family: "Bungee Hairline", cursive;
+      font-weight: 600;
+      line-height: 1.2;
+      text-decoration: none;
+      color: #000;
+
+      &:hover {
+        text-decoration: none;
+        color: #1890ff;
+      }
+    }
+
+    &__desc {
+      font-size: 16px;
+      line-height: 1.35;
+      margin: 10px 0;
+      max-height: 80px;
+      overflow: hidden;
+      color: rgba(0, 0, 0, 0.6);
+
+      &--home1 {
+        max-height: 125px;
+      }
+    }
+
+    &__tag {
+      display: flex;
+      margin-bottom: 10px;
+      font-size: 10px;
+
+      span {
+        color: #90bab5;
+        text-transform: uppercase;
+        margin-right: 15px;
+        font-weight: 600;
+      }
+    }
+
+    &__details {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+    }
+
+    &__date,
+    &__author {
+      align-items: center;
+      font-size: 11px;
+
+      .fas,
+      .fa {
+        color: rgba(0, 0, 0, 0.45);
+      }
+
+      span {
+        color: rgba(0, 0, 0, 0.45);
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-left: 4px;
+      }
+    }
+
+    &__date {
+      margin-left: 25px;
+    }
+
+    &__link {
+      padding-top: 5px;
+      color: #90bab5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 300ms;
+
+      span {
+        font-size: 13px;
+      }
+
+      .fas {
+        font-size: 11px;
+        margin-left: 4px;
+      }
+
+      &:hover {
+        transform: translateY(-3px);
+        text-decoration: none;
+        color: #90bab5;
+      }
+
+      &:active {
+        transform: translateY(-1px);
+      }
+    }
+    &--3col {
+      &__tag {
+        font-size: 9px;
+      }
+      &__title {
+        font-size: 18px;
+      }
+      &__author,
+      &__date {
+        font-size: 10px;
+      }
+      &__desc {
+        font-size: 14px;
+        max-height: 75px;
+      }
+    }
+  }
+}
