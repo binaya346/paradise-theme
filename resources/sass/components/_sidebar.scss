@@ -46,7 +46,7 @@
       margin-bottom: 15px;
 
       img {
-        height: auto;
+        height: 180px;
         width: 100%;
         object-fit: cover;
       }
@@ -122,8 +122,8 @@
       margin-right: 15px;
 
       img {
-        height: 75px;
-        width: 75px;
+        height: 60px;
+        width: 60px;
         border-radius: 50%;
         object-fit: cover;
       }
@@ -133,7 +133,6 @@
       display: flex;
       align-items: center;
       font-size: 9px;
-      margin-bottom: 8px;
 
       span {
         color: #90bab5;
@@ -148,7 +147,7 @@
           height: 5px;
           right: -15px;
           width: 5px;
-          transform: translateY(100%);
+          transform: translateY(70%);
           border-radius: 50%;
           background-color: #90bab5;
         }
@@ -162,7 +161,7 @@
     }
 
     &__title {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 600;
       text-decoration: none;
       color: #000;

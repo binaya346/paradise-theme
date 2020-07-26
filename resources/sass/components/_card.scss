@@ -1,0 +1,88 @@
+.card-horizontal {
+  &__image {
+    position: relative;
+    cursor: pointer;
+
+    &:hover img {
+      filter: brightness(0.5);
+    }
+
+    img {
+      width: 100%;
+      height: 465px;
+      object-fit: cover;
+      border-top-right-radius: 3px;
+      border-top-left-radius: 3px;
+    }
+  }
+
+  &__details {
+    padding: 25px;
+    padding-bottom: 15px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    border-top: none;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+  }
+
+  &__author {
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  &__tag {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    transform: translateY(200%);
+    z-index: 1;
+    transition: transform 300ms;
+
+    span {
+      margin-right: 15px;
+      text-transform: uppercase;
+      color: #fff;
+      padding: 2px 5px;
+      border-radius: 10px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  &__image:hover &__tag {
+    transform: translateY(0);
+  }
+}
+
+.card-square {
+  &__image {
+    position: relative;
+    cursor: pointer;
+
+    &:hover img {
+      filter: brightness(0.5);
+    }
+
+    img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-top-right-radius: 3px;
+      border-top-left-radius: 3px;
+    }
+  }
+}
+
+.card-square__image:hover .card-horizontal__tag {
+  transform: translateY(0);
+}

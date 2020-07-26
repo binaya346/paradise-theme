@@ -233,8 +233,6 @@
   }
 
   &--post {
-    margin: 30px 0;
-
     &__featured {
       display: flex;
       align-items: center;
@@ -265,9 +263,5 @@
         text-align: center;
       }
     }
-  }
-
-  &--post {
-    margin-bottom: 80px;
   }
 }

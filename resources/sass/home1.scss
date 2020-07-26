@@ -1,46 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Open+Sans&family=Butterfly+Kids&family=Chathura:wght@100;300;400;700&display=swap");
 
 .h-1 {
-  &--navbar {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 40px;
-    align-items: center;
-    padding: 15px 0;
-
-    &__logo {
-      font-size: 4.5rem;
-      color: rgba(0, 0, 0, 0.6);
-      text-transform: uppercase;
-      font-family: "Butterfly Kids", cursive;
-      line-height: 1.2;
-      padding-top: 8px;
-    }
-    &__navigation {
-      position: relative;
-      display: flex;
-
-      a {
-        text-decoration: none;
-        text-transform: uppercase;
-        white-space: nowrap;
-        margin: 0 8px;
-        font-size: 30px;
-        color: #000;
-        font-weight: 600;
-        font-family: "Chathura", sans-serif;
-
-        &:hover {
-          color: #ff4800;
-        }
-      }
-
-      a.active {
-        color: #ff4800;
-      }
-    }
-  }
-
   &--header {
     margin-bottom: 30px;
 

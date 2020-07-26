@@ -13,11 +13,11 @@
     <title>Folder structure for basic design</title>
   </head>
   <body>
-    <section class="h-1--navbar">
-      <div class="h-1--navbar__logo">
+    <section class="navbar-1">
+      <div class="navbar-1__logo">
         paradise
       </div>
-      <div class="h-1--navbar__navigation">
+      <div class="navbar-1__navigation">
         <a href="#" class="active">home</a>
         <a href="#">modules</a>
         <a href="#">posts</a>
@@ -76,7 +76,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-lg-8 col-xl-9">
-            <div class="post__outline">
+            <section class="post__outline u-border-bottom">
               <div class="post__outline__image">
                 <img src="resources/images/card-fashion.jpg" alt="" />
               </div>
@@ -121,10 +121,13 @@
                   </a>
                 </div>
               </div>
-            </div>
+            </section>
 
-            <section class="recommend">
+            <section class="recommend u-border-bottom">
               <div class="container-fluid">
+                <div class="u-container-title">
+                  you may also like
+                </div>
                 <div class="row">
                   <div class="col-xl-4 col-lg-6">
                     <div class="sidebar__popular__child">
@@ -180,10 +183,150 @@
                 </div>
               </div>
             </section>
+
+            <section class="advertise u-margin-bottom">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <section class="horizontal-banner">
+                      <img src="resources/images/advertise-banner.jpg" />
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- <section class="post--masonry u-margin-bottom">
+              <div class="container">
+                <div class="u-container-title">
+                  masonry column grid
+                </div>
+                <div class="row u-padding-bottom u-border-bottom">
+                  <div class="col-xl-4 col-lg-12">
+                    <div class="masonry">
+                      <div class="masonry__image">
+                        <img src="resources/images/card-square.jpg" alt="" />
+                      </div>
+                      <div class="masonry__details">
+                        <div class="masonry__tags">
+                          <span>keyboard</span><span>technology</span>
+                        </div>
+                        <a class="masonry__title" href="#">
+                          Hello this is the title
+                        </a>
+                        <div class="masonry__desc">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Nostrum beatae possimus magnam odio saepe culpa
+                          praesentium, cum cupiditate deserunt facilis enim
+                          blanditiis dignissimos alias fugiat, tenetur et vitae
+                          laudantium. Deserunt?
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section> -->
+
+            <section class="post--masonry">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <section class="card-horizontal">
+                      <div class="card-horizontal__image">
+                        <img
+                          src="resources/images/card-horizontal.jpg"
+                          alt=""
+                        />
+                        <div class="card-horizontal__tag">
+                          <span>nature</span><span>birds</span
+                          ><span>music</span>
+                        </div>
+                      </div>
+                      <div class="card-horizontal__details">
+                        <div class="card-horizontal__title">
+                          title of my post is this and that
+                        </div>
+                        <div
+                          class="post__outline__details card-horizontal__author"
+                        >
+                          <div class="post__outline__author">
+                            <i class="fas fa-user"></i>
+                            <span>Paradise team</span>
+                          </div>
+
+                          <div class="post__outline__date">
+                            <i class="fas fa-calendar-day"></i>
+                            <span>27 JUN 2020</span>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+
+                  <div class="col-md-6">
+                    <section class="card-square u-margin-bottom-sm">
+                      <div class="card-square__image">
+                        <img src="resources/images/card-square.jpg" alt="" />
+                        <div class="card-horizontal__tag">
+                          <span>technology</span><span>keyboards</span>
+                        </div>
+                      </div>
+                      <div class="card-horizontal__details">
+                        <div class="card-horizontal__title">
+                          title of my post is this and that
+                        </div>
+                        <div
+                          class="post__outline__details card-horizontal__author"
+                        >
+                          <div class="post__outline__author">
+                            <i class="fas fa-user"></i>
+                            <span>Paradise team</span>
+                          </div>
+
+                          <div class="post__outline__date">
+                            <i class="fas fa-calendar-day"></i>
+                            <span>27 JUN 2020</span>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="card-square">
+                      <div class="card-square__image">
+                        <img src="resources/images/card-square1.jpg" alt="" />
+                        <div class="card-horizontal__tag">
+                          <span>technology</span><span>keyboards</span>
+                        </div>
+                      </div>
+                      <div class="card-horizontal__details">
+                        <div class="card-horizontal__title">
+                          title of my post is this and that
+                        </div>
+                        <div
+                          class="post__outline__details card-horizontal__author"
+                        >
+                          <div class="post__outline__author">
+                            <i class="fas fa-user"></i>
+                            <span>Paradise team</span>
+                          </div>
+
+                          <div class="post__outline__date">
+                            <i class="fas fa-calendar-day"></i>
+                            <span>27 JUN 2020</span>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
+
           <div class="col-md-4 col-lg-4 col-xl-3">
             <div class="sidebar">
-              <div class="sidebar__about">
+              <section class="sidebar__about">
                 <div class="sidebar__title">
                   <span>about me</span>
                 </div>
@@ -197,12 +340,13 @@
                 <div class="sidebar__about__signature">
                   Lucy martin
                 </div>
-              </div>
+              </section>
 
-              <div class="sidebar__popular">
+              <section class="sidebar__popular">
                 <div class="sidebar__title">
                   <span>popular post</span>
                 </div>
+
                 <div class="sidebar__popular__child">
                   <div class="sidebar__popular__image">
                     <img src="resources/images/sidebar-popular.jpg" alt="" />
@@ -238,19 +382,20 @@
                     >Placing mirror in your room is also an art</a
                   >
                 </div>
-              </div>
+              </section>
 
-              <div class="sidebar__recent">
+              <section class="sidebar__recent">
                 <div class="sidebar__title">
                   <span>recent post</span>
                 </div>
+
                 <div class="sidebar__recent__child">
                   <div class="sidebar__recent__image">
                     <img src="resources/images/food.jpg" alt="" />
                   </div>
                   <div class="sidebar__recent__details">
                     <div class="sidebar__recent__tags">
-                      <span>food</span><span>taste</span><span>receipe</span>
+                      <span>food</span><span>taste</span>
                     </div>
                     <a class="sidebar__recent__title" href="#">
                       these food are for good health
@@ -264,8 +409,7 @@
                   </div>
                   <div class="sidebar__recent__details">
                     <div class="sidebar__recent__tags">
-                      <span>photo</span><span>travel</span
-                      ><span>photography</span>
+                      <span>photo</span><span>travel</span>
                     </div>
                     <a class="sidebar__recent__title" href="#">
                       Lenses that will import your pictures
@@ -286,7 +430,7 @@
                     </a>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
           </div>
         </div>

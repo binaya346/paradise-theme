@@ -5,3 +5,40 @@
 .u-no-padding {
   padding: 0;
 }
+
+.u-container-title {
+  display: grid;
+  place-items: center;
+  font-size: 16px;
+  color: #030303;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.u-container-title-xl {
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+  color: #030303;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.u-border-bottom {
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 30px;
+}
+
+.u-margin-bottom {
+  margin-bottom: 30px;
+}
+
+.u-margin-bottom-sm {
+  margin-bottom: 15px;
+}
+
+.u-padding-bottom {
+  padding-bottom: 30px;
+}
