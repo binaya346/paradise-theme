@@ -1,0 +1,71 @@
+.post1__header {
+  margin-bottom: 40px; }
+  .post1__header img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover; }
+
+.post1__content {
+  background: #fff;
+  box-shadow: 4px 8px 8px -4px rgba(0, 0, 0, 0.3), -4px 8px 8px -4px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 40px; }
+  .post1__content__title {
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    color: #030303;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Bungee Hairline", cursive; }
+  .post1__content__details {
+    display: flex;
+    align-items: center;
+    margin-top: 5px; }
+  .post1__content__author, .post1__content__date {
+    align-items: center;
+    font-size: 11px; }
+    .post1__content__author span, .post1__content__date span {
+      color: rgba(0, 0, 0, 0.45);
+      text-transform: uppercase;
+      font-weight: 600;
+      padding-left: 4px; }
+  .post1__content__date {
+    margin-left: 25px;
+    position: relative; }
+  .post1__content__desc {
+    font-size: 16px;
+    margin-top: 25px;
+    text-align: justify; }
+    .post1__content__desc__p1:first-letter {
+      font-size: 4.5em;
+      float: left;
+      line-height: 1;
+      font-family: serif; }
+    .post1__content__desc__p2-image {
+      font-size: 16px;
+      margin: 20px 0; }
+      .post1__content__desc__p2-image img {
+        height: 200px;
+        width: 50%;
+        float: left;
+        object-fit: cover;
+        margin-right: 15px; }
+      .post1__content__desc__p2-image__text {
+        text-align: justify; }
+    .post1__content__desc__image {
+      margin: 20px 0; }
+      .post1__content__desc__image img {
+        height: 360px;
+        width: 100%;
+        object-fit: cover; }
+    .post1__content__desc__p3 {
+      margin: 20px 0; }
+
+.post1__tags {
+  font-size: 12px;
+  justify-content: center; }
+  .post1__tags span:not(:last-child):after {
+    transform: translateY(100%); }

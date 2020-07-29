@@ -1,0 +1,24 @@
+.tags {
+  display: flex;
+  align-items: center;
+  font-size: 9px;
+
+  span {
+    color: #90bab5;
+    position: relative;
+    text-transform: uppercase;
+    margin-right: 25px;
+    font-weight: 600;
+
+    &:not(:last-child):after {
+      content: "";
+      position: absolute;
+      height: 5px;
+      right: -15px;
+      width: 5px;
+      transform: translateY(70%);
+      border-radius: 50%;
+      background-color: #90bab5;
+    }
+  }
+}

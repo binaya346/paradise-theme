@@ -1,0 +1,16 @@
+.input-text {
+  input[type="text"] {
+    border: none;
+    margin: 0;
+    outline: none;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    text-indent: 10px;
+  }
+
+  &--lg {
+    input[type="text"] {
+      height: 40px;
+    }
+  }
+}

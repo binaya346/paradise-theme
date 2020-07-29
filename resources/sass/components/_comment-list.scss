@@ -1,0 +1,48 @@
+.comment-list {
+  margin: 40px 0;
+
+  &__title {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  &__child {
+    display: flex;
+    padding-bottom: 25px;
+  }
+
+  &__image {
+    img {
+      height: 80px;
+      width: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  &__details {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__name {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  &__time {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.45);
+  }
+
+  &__message {
+    text-align: justify;
+    font-size: 14px;
+  }
+}

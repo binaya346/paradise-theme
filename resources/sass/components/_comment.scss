@@ -1,0 +1,36 @@
+.comment {
+  padding: 20px 0;
+
+  &__input-wrapper {
+    display: flex;
+  }
+
+  &__input {
+    width: 50%;
+    margin-bottom: 20px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  .form-control--comment {
+    height: 40px;
+  }
+  .form-control {
+    font-size: 16px;
+  }
+
+  &__label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+
+  &__textarea {
+    width: 100%;
+  }
+
+  &__btn {
+    margin: 15px 0;
+  }
+}
