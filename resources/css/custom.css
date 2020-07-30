@@ -164,7 +164,7 @@ body {
   font-size: 18px;
   height: 50px;
   width: 100%;
-  background-color: #f4f8f8;
+  background-color: #f6f6f6;
   margin-bottom: 20px;
   display: grid;
   place-items: center; }
@@ -456,7 +456,7 @@ body {
       background-color: #90bab5; }
 
 .testimonial {
-  background: #fff9f5;
+  background: #f6f6f6;
   padding: 20px; }
   .testimonial__text {
     font-size: 18px;
@@ -561,3 +561,69 @@ body {
   text-transform: uppercase;
   color: #fff;
   padding: 8px 12px; }
+
+.footer {
+  padding: 40px;
+  background-color: #f6f6f6;
+  color: #333;
+  padding-bottom: 0; }
+  .footer__top {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+  .footer__bottom {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between; }
+    .footer__bottom__child {
+      font-size: 12px;
+      text-transform: capitalize; }
+  .footer__logo {
+    color: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    font-family: "Butterfly Kids", cursive;
+    line-height: 1.2;
+    padding-top: 8px;
+    font-size: 4rem; }
+  .footer__company-desc {
+    font-size: 14px;
+    text-align: justify; }
+  .footer__child-title {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding-bottom: 10px; }
+  .footer__categories__item {
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .footer__categories__key {
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #333; }
+    .footer__categories__key:hover {
+      text-decoration: none;
+      color: #ff4800; }
+  .footer__categories__value {
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px; }
+
+.advertise-square {
+  text-decoration: none;
+  color: #333; }
+  .advertise-square img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover; }
+  .advertise-square__text {
+    padding-top: 10px;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: justify; }
+  .advertise-square:hover {
+    text-decoration: none;
+    color: #333; }

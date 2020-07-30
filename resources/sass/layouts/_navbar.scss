@@ -28,12 +28,12 @@
       font-family: "Chathura", sans-serif;
 
       &:hover {
-        color: #ff4800;
+        color: $color-primary;
       }
     }
 
     a.active {
-      color: #ff4800;
+      color: $color-primary;
     }
   }
 }

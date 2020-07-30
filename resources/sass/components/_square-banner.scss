@@ -1,0 +1,22 @@
+.advertise-square {
+  text-decoration: none;
+  color: #333;
+
+  img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__text {
+    padding-top: 10px;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: justify;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: #333;
+  }
+}
